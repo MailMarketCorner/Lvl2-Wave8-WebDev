@@ -37,3 +37,27 @@
 
 // STEP 10: Use console.log again to print an UPDATED summary
 //          that shows the new values for eveningPlan and favoriteSnack.
+
+let dayName = "Thursday";
+let stepsWalked = 248;
+let waterCups = 3;
+let didWorkout = true;
+let eveningPlan = null;
+let favoriteSnack;
+
+console.log(
+    "Day: ", dayName,
+    "Steps walked: ", stepsWalked,
+    "Water cups: ", waterCups,
+    "Worked out today? ", didWorkout,
+    "Evening Plan: ", eveningPlan,
+    "Favorite Snack: ", favoriteSnack,
+);
+
+eveningPlan = "Movie Night";
+favoriteSnack = "Grapes";
+
+console.log(
+    "Plan for this evening: ", eveningPlan,
+    "My favorite 2026 snack is...", favoriteSnack,
+);
