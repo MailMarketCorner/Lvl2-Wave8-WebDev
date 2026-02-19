@@ -26,4 +26,13 @@
 //         to a new value and then log the entire profile card again
 //         to show the updated information.
 
-const fullName = "Jose"
+const fullName = "Jose";
+let profileAge = 22;
+const country = "United Kingdom";
+let favoriteHobby = "Sleep";
+const isStudent = true;
+
+console.log("Full name: ", fullName, profileAge, country, favoriteHobby, isStudent);
+
+favoriteHobby = "Exercise";
+console.log(favoriteHobby);
